@@ -3,10 +3,8 @@ import torch.optim as optim
 import torch.nn as nn
 import numpy as np
 import os
-import wandb
 from IPython.display import clear_output
 from torch.utils.data import Dataset, DataLoader
-import matplotlib.pyplot as plt
 import json
 
 def weighted_bceloss_logits(pred, y, decay=1):
