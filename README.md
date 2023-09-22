@@ -33,7 +33,7 @@ Ensure you have the required libraries installed. For this repository, the key l
     - Import necessary libraries.
     - Define the `load_model` function to load the pre-trained model.
     - Load the model and its configuration using `load_model('./model')`.
-    - To infer using the model, use `model.infer(x, standardise=True)`, where `x` is your input data. (Note: this line is commented out in the demo, uncomment and use accordingly).
+    - To infer using the model, use `model.infer(x, standardise=True)`, where `x` is your input data.
 
 ## Contributing:
 
