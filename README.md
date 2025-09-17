@@ -2,6 +2,10 @@
 
 This repository provides tools and a pre-trained model to determine the optimal time inversion (TI) in LGE cardiac MRI imaging. The methodology uses CNN-LSTM architectures to infer the optimal TI based on the input data (Scout Imaging Series).
 
+If you find this repository helpful please cite the following [paper](https://doi.org/10.1007/s00330-024-10630-w):
+
+Cheng Xie, Rory Zhang, Sebastian Mensink, Rahul Gandharva, Mustafa Awni, Hester Lim, Stefan E. Kachel, Ernest Cheung, Richard Crawley, Leonid Churilov, Nuno Bettencourt, Amedeo Chiribiri, Cian M. Scannell & Ruth P. Lim. Automated inversion time selection for late gadolinium–enhanced cardiac magnetic resonance imaging. Eur Radiol 34, 5816–5828 (2024). https://doi.org/10.1007/s00330-024-10630-w
+
 ## Repository Contents:
 
 - `models.py`: Contains the model architecture for the CNN-LSTM-based TI prediction.
